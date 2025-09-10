@@ -1,4 +1,4 @@
-# LangGraph Multi-Agent — Market Research Pipeline
+# LangGraph Multi-Agent - Market Research Pipeline
 
 ## Overview
 This project implements a multi-agent market research pipeline using LangGraph. It performs web search, extracts and analyzes facts, generates structured market research reports, and produces PDF outputs. The system uses Guardrails for prompt hardening, schema validation, and policy checks to ensure high-quality, safe outputs.
