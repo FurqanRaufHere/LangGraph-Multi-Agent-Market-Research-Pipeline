@@ -10,7 +10,7 @@ This project implements a multi-agent market research pipeline using LangGraph. 
 - **AnalystAgent**: Extracts and cleans facts from search results, prioritizing those with full content.
 - **WriterAgent**: Generates comprehensive market research reports in JSON format using Groq LLM, ensuring facts are structured objects with source, url, excerpt, and content.
 - **NarrativeWriterAgent**: Converts structured reports into well-written market research articles.
-- **ReviewerAgent**: Validates report schema, checks for policy violations, and generates PDF reports.
+- **ReviewerAgent**: Validates report schema, checks for policy violations, and generates PDF reports
 
 ### Guardrails
 - Prompt hardening to avoid hallucinations and enforce JSON output.
