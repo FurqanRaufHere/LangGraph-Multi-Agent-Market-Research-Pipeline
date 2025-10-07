@@ -14,7 +14,7 @@ This project implements a multi-agent market research pipeline using LangGraph. 
 
 ### Guardrails
 - Prompt hardening to avoid hallucinations and enforce JSON output.
-- Pydantic schema validation for final reports.
+- Pydantic schema validation for final reports
 - Toxicity and policy violation checks.
 - Circuit breaker to handle repeated failures gracefully.
 
